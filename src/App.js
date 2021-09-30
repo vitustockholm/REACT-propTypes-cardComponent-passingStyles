@@ -1,23 +1,60 @@
-import logo from './logo.svg';
 import './App.css';
+import PrimaryCard from './components/PrimaryCard';
+import SecondaryCard from './components/SecondaryCard';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <h5>101</h5>
+      <PrimaryCard
+        background='skyblue'
+        text={{
+          header: 'Header',
+          title: 'Primary Card Title',
+          content: 'Some text for jus typing and consoling log to client!',
+        }}
+      />
+      <PrimaryCard
+        background='grey'
+        text={{
+          header: 'Header',
+          title: 'Primary Card Title',
+          content: 'Some text for jus typing and consoling log to client!',
+        }}
+      />
+      <PrimaryCard
+        background='blue'
+        text={{
+          header: 'Header',
+          title: 'Primary Card Title',
+          content: 'Some text for jus typing and consoling log to client!',
+        }}
+      />
+      <SecondaryCard
+        background='black'
+        text={{
+          header: 'Header',
+          title: 'Primary Card Title',
+          content: 'Some text for jus typing and consoling log to client!',
+        }}
+      />
+      <SecondaryCard
+        background='blue'
+        text={{
+          header: 'Header',
+          title: 'Primary Card Title',
+          content: 'Some text for jus typing and consoling log to client!',
+        }}
+      />
+      <SecondaryCard
+        background='skyblue'
+        text={{
+          header: 'Header',
+          title: 'Primary Card Title',
+          content: 'Some text for jus typing and consoling log to client!',
+        }}
+      />
+      <br />
     </div>
   );
 }

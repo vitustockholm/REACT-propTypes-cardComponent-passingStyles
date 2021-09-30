@@ -1,0 +1,22 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+}
+.card {
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 1.9%;
+  margin: 10px;
+}
+.card-title {
+  padding-left: 15px;
+  font-size: 18px;
+}
+
+.card-header {
+  padding-left: 1px;
+}

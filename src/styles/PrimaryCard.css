@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+}
+
+.primaryCard {
+  width: 275px;
+  /* color: #fff; */
+  border: 1px solid #ddd;
+  border-radius: 1.9%;
+  margin: 10px;
+}
+
+.header {
+  border-bottom: 2px solid rgb(66, 64, 64);
+  padding-left: 15px;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.primaryCard.second {
+  box-sizing: border-box;
+}
+
+h3 {
+  margin-bottom: 0.5rem;
+}
